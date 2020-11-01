@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "08624158-563a-4d3b-8c44-5f4322ebe2ce",
+		"name": "MamaMoney",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Mama Money USSD",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"sessionId\": \"#AA1234\",\n\t\"msisdn\": \"27821231234\", \n\t\"userEntry\": \"1\"\n}"
+				},
+				"url": {
+					"raw": "{{url}}/mama-money/ussd",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"mama-money",
+						"ussd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mama Money USSD MongoDB",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"sessionId\": \"#AA1234\",\n\t\"msisdn\": \"27821231234\", \n\t\"userEntry\": \"1\"\n}"
+				},
+				"url": {
+					"raw": "{{url}}/mama-money/ussd-mongo",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"mama-money",
+						"ussd-mongo"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
