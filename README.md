@@ -16,6 +16,7 @@ I have provided 2 endpoints for the USSD problem.
 
 - Con's
 	- A lot of requests will cause a lot of memory usage.
+	- Request data will be lost very time the service restarts.
 
 
 /mama-money/ussd-mongo
