@@ -15,7 +15,7 @@ I have provided 2 endpoints for the USSD problem.
 	- Very fast data retrieval.
 
 - Con's
-	- Allot of requests will cause allot of memory usage.
+	- A lot of requests will cause a lot of memory usage.
 
 
 /mama-money/ussd-mongo
